@@ -1,0 +1,2 @@
+debian/bin/polytimosd usr/bin
+src/polytimosd usr/lib/polytimos

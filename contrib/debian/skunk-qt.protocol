@@ -1,0 +1,11 @@
+[Protocol]
+exec=polytimos-qt '%u'
+protocol=polytimos
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false
