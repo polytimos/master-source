@@ -116,6 +116,8 @@ public:
         vSeeds.push_back(CDNSSeedData("seed8.polytimos.net", "seed8.polytimos.net"));
         vSeeds.push_back(CDNSSeedData("seed9.polytimos.net", "seed9.polytimos.net"));
         vSeeds.push_back(CDNSSeedData("seed10.polytimos.net", "seed10.polytimos.net"));
+	vSeeds.push_back(CDNSSeedData("seed11.polytimos.net", "seed11.polytimos.net"));
+	vSeeds.push_back(CDNSSeedData("seed12.polytimos.net", "seed12.polytimos.net"));    
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 65);
