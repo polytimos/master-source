@@ -128,7 +128,7 @@ OBJS= \
     obj/scrypt-arm.o \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o \
-    obj/chainparams.o
+    obj/chainparams.o \
     obj/echo.o \
     obj/luffa.o \
     obj/shabal.o \
