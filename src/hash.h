@@ -1,5 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
+// Copyright (c) 2019 Polytimos Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #ifndef BITCOIN_HASH_H
@@ -29,7 +30,7 @@
 #endif
 
 GLOBAL sph_skein512_context     z_skein;
-GLOBAL sph_shabal512_context     z_shabal;
+GLOBAL sph_shabal512_context    z_shabal;
 GLOBAL sph_echo512_context      z_echo;
 GLOBAL sph_luffa512_context     z_luffa;
 GLOBAL sph_fugue512_context     z_fugue;
@@ -54,10 +55,10 @@ inline uint256 Spartan(const T1 pbegin, const T1 pend)
 
 {
     sph_skein512_context     ctx_skein;
-    sph_shabal512_context     ctx_shabal;
+    sph_shabal512_context    ctx_shabal;
     sph_echo512_context      ctx_echo;
     sph_luffa512_context     ctx_luffa;
-    sph_fugue512_context      ctx_fugue;
+    sph_fugue512_context     ctx_fugue;
     sph_gost512_context      ctx_gost;
     static unsigned char pblank[1];
 
