@@ -1,5 +1,7 @@
 Building Polytimos
 
-See doc/readme-qt.rst for instructions on building Polytimos QT, the intended-for-end-users, nice-graphical-interface, reference implementation of Polytimos.
+See doc/readme-qt.rst for instructions on building Polytimos QT, the intended-for-end-users, nice-graphical-interface,
+reference implementation of Polytimos.
 
-See doc/build-*.txt for instructions on building polytimosd, the intended-for-services, no-graphical-interface, reference implementation of Polytimos.
+See doc/build-*.txt for instructions on building polytimosd, the intended-for-services, no-graphical-interface, 
+reference implementation of Polytimos.
