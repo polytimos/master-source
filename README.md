@@ -10,3 +10,5 @@ Have you ever felt left out of the Bitcoin movement? Here's your chance to not b
 This will allow Polytimos to adopt true decentralization, by having more people in the beginning who are aware of the project. More miners in a more diversified collective finding the project near launch, and mining the coins all over the globe.
 
 More nodes to come all over the globe sooner, to last longer, and create an extremely large and solid worldwide network that can be used by anyone, for any purpose they deem worthy.
+
+Upcoming seed nodes.
