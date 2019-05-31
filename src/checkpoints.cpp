@@ -41,7 +41,6 @@ namespace Checkpoints
         (  253928, uint256("0x00577ef15a151bc338466a1e81d8ca7ec9c06503f14257427bb6e2feb4c4645c") )
         ;
 
-    // TestNet has no checkpoints
     static MapCheckpoints mapCheckpointsTestnet;
 
     bool CheckHardened(int nHeight, const uint256& hash)
@@ -76,7 +75,6 @@ namespace Checkpoints
         return NULL;
     }
 
-    // Automatically select a suitable sync-checkpoint 
     const CBlockIndex* AutoSelectSyncCheckpoint()
     {
         const CBlockIndex *pindex = pindexBest;
@@ -86,7 +84,6 @@ namespace Checkpoints
         return pindex;
     }
 
-    // Check against synchronized checkpoint
     bool CheckSync(int nHeight)
     {
         const CBlockIndex* pindexSync = AutoSelectSyncCheckpoint();
