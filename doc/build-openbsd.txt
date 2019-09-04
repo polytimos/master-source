@@ -1,1 +1,7 @@
 
+pkg_add git gmake libevent libtool boost
+pkg_add autoconf # (select highest version)
+pkg_add automake # (select highest version)
+pkg_add python # (select highest version)
+
+git clone https://github.com/polytimos/master-source.git
