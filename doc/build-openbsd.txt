@@ -1,5 +1,5 @@
 
-pkg_add git gmake libevent libtool boost
+pkg_add git gmake libevent libtool boost openssl miniupnpc
 pkg_add autoconf # (select highest version)
 pkg_add automake # (select highest version)
 pkg_add python # (select highest version)
