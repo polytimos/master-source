@@ -1,3 +1,4 @@
+# Work in progress.
 
 pkg_add git gmake libevent libtool boost openssl miniupnpc gmake make autoconf automake
 
