@@ -1,7 +1,6 @@
 
-pkg_add git gmake libevent libtool boost openssl miniupnpc
-pkg_add autoconf # (select highest version)
-pkg_add automake # (select highest version)
-pkg_add python # (select highest version)
+pkg_add git gmake libevent libtool boost openssl miniupnpc gmake make autoconf automake
+
+Select latest available package versions.
 
 git clone https://github.com/polytimos/master-source.git
