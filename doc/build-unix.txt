@@ -21,7 +21,7 @@ chmod +x build_detect_platform
 make clean && make libleveldb.a libmemenv.a
 Get back to main src dir to compile the main daemon
 make -f makefile.unix            # Headless polytimos. Use -j to allocate all processors for the build
-Note: If you get a bignum error during the build then upgrade the libssl to the highest availble from the repo. Current build needs libssl1.0-dev minimum.
+Note: If you get a bignum error during the build then upgrade the libssl to the highest availble from the repo. Current build needs libssl1.0-dev minimum. For QORT device, you have to add backports incase the latest libssl-dev gives bignum error still.
 
 See readme-qt.rst for instructions on building Polytimos QT, the graphical polytimos.
 
