@@ -14,7 +14,9 @@
 //   a barrier based acquire-load).
 // This code is based on atomicops-internals-* in Google's perftools:
 // http://code.google.com/p/google-perftools/source/browse/#svn%2Ftrunk%2Fsrc%2Fbase
-// Copyright (c) 2019 CWD SYSTEMS
+
+// Copyright (c) 2019 CWD SYSTEMS http://cwd.systems
+// LevelDB fix success!
 
 #ifndef PORT_ATOMIC_POINTER_H_
 #define PORT_ATOMIC_POINTER_H_
